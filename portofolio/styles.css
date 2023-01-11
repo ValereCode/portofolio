@@ -1,3 +1,7 @@
-dv{
-    border: 2px solid rgb(216, 82, 82);
+#presentation {
+    background-color: azure;
+}
+
+#expertise {
+    background-color: rgb(245, 245, 164);
 }
