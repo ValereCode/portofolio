@@ -19,7 +19,7 @@
 
 <body>
 
-    <header class="py-4">
+    <header class="py-4 my-2">
         <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
             <div class="container">
                 <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
@@ -492,12 +492,12 @@
                 </div>
                 <div class="row gy-3">
                     <div class="col-12 col-md-4">
-                        <img src="https://picsum.photos/300/150?random=1" alt="...">
+                        <img src="https://picsum.photos/300/150?random=1" alt="..." class="h-100">
                     </div>
                     <div class="col-12 col-md-4 offset-md-4 bg-light">
                         <form>
 
-                            <div class="row my-3">
+                            <div class="row mb-3">
                                 <div class="col-12 col-md-5">
                                     <label for="prenom" class="form-label">Prenom</label>
                                     <input type="text" class="form-control" id="prenom">
@@ -507,18 +507,26 @@
                                     <input type="text" class="form-control" id="nom">
                                 </div>
                             </div>
-
-                            <div class="mb-3">
-                              <label for="exampleInputEmail1" class="form-label">Email address</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                            </div>
-                            <div class="row my-3">
-                                <div class="col-3"></div>
-                                <div class="col-6">
-                                    <button type="submit" class="btn btn-primary">Envoyer</button>
+             
+                            <div class="row mt-3">
+                                <div class="col-12 mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                                        </div>
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                                    </div>
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>   
                                 </div>
-                                <div class="col-3"></div>
+                                
+                                <div class="col-12 mb-3">
+                                    <label for="commentaire" class="form-label">Ecriver nous</label>                                        
+                                    <textarea class="form-control" name="commentaire" id="commentaire" rows="3"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100">Envoyer</button>
+                                </div>
                             </div>
                             
                         </form>
@@ -528,14 +536,43 @@
         </section>
 
         <footer>
-            <div class="container mt-2 bg-transparent">
+            <div class="container mt-2 bg-transparent bg-secondary">
                 <div class="row gx-5">
-                    <div class="col-3 bg-secondary py-2">
-dfk
+                    <div class="col-3 py-2">
+                        <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
+                            <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Valère</span> SETODJI
+                        </a>
                     </div>
-                    <div class="col-3 offset-1 bg-secondary py-2">
-                        sd
+                    <div class="col-3 offset-1 py-2 text-center">
+                        <a href="#" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#modal">mention légale</a>
                     </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Mention légale</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut tempora earum quam adipisci laudantium nostrum, illo, non quaerat laborum minima harum tempore totam atque recusandae distinctio nobis ut! Iure?
+                                    Earum accusamus obcaecati corrupti accusantium alias, quis veritatis nulla eaque necessitatibus sint consectetur, dicta, mollitia aperiam deserunt? Atque cumque odit pariatur sunt repudiandae possimus architecto eveniet. At nostrum molestias assumenda?
+                                    Ipsa harum quaerat voluptatibus molestias cum, mollitia a unde velit eius ratione dignissimos blanditiis sunt eum autem fugiat nam quos dolorum nulla, illum natus. Blanditiis consequatur dolorum nulla! Nemo, dolor.
+                                    Excepturi magnam tempora molestiae earum vel, possimus quidem? Eos, velit aliquam, rerum repellendus, qui quam ducimus nulla ipsa veritatis eligendi obcaecati! Dicta commodi est molestias fugiat, enim dolore modi eius.
+                                    Blanditiis, voluptatibus. Iusto excepturi ducimus minima, ipsum animi, omnis ullam eum iure eaque accusamus, necessitatibus libero nihil error. Culpa alias, assumenda cumque aperiam dolorem reiciendis molestias numquam ratione beatae est!
+                                    At praesentium libero vero quis inventore cumque, ratione tempore aliquid dolorum error quasi nihil dicta in debitis odit accusamus eveniet! Doloremque, in ipsa animi nesciunt inventore ex eaque distinctio dolor!
+                                    Facere impedit laudantium natus nihil numquam repellat quibusdam, dolor itaque ex ducimus aperiam ullam, vel omnis id nesciunt culpa. Enim veritatis labore quo rerum voluptate nostrum dicta dolore ratione distinctio!
+                                    Numquam officiis vel debitis, nostrum, nulla minus reprehenderit quo temporibus aperiam voluptates impedit fugiat incidunt aliquid alias, aliquam iste? Officiis ratione, necessitatibus modi voluptatem sunt eum incidunt ad dolores obcaecati.
+                                    Delectus possimus fugiat perferendis, tempore exercitationem repellendus magni deserunt tenetur enim illum velit molestias animi voluptatibus atque quisquam corrupti ad odio ducimus provident autem minus. Sed natus excepturi consectetur iusto.
+                                    Quaerat dolores odio nesciunt sapiente nostrum totam voluptatum inventore deserunt? Vel veritatis earum quasi esse sint, eos iure similique nisi natus perspiciatis dolorum numquam accusamus delectus ex temporibus beatae doloribus.
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+
                     <div class="col-4 offset-1 py-2">
                         <ul class="list-inline text-md-end">
                             <li class="list-inline-item">
