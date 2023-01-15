@@ -31,7 +31,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#johndoe">Qui suis-je ?</a>
+                            <a class="nav-link" href="#valere">Qui suis-je ?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#expertise">Expertises</a>
@@ -49,7 +49,7 @@
     </header>
 
     <main>
-        <section>
+        <section id="valere">
             <div class="container my-3" id="presentation">
                 <div class="row gy-4 gx-md-3">
                     <div class="col-12 col-sm-6 text-center">
@@ -65,8 +65,8 @@
             </div>
         </section>
 
-        <section>
-            <div class="container" id="expertise">
+        <section id="expertise">
+            <div class="container">
                 <div class="row my-2">
                     <h2>Mon expertise</h2> <br>
                     <p>Développement web et mobile</p>
@@ -241,7 +241,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="portfolio">
             <div class="container bg-gradient my-5">
                 <div class="row">
                     <h2>Mon potofolio</h2>
@@ -484,7 +484,7 @@
             </div>
         </section>
 
-        <section>
+        <section id="contact">
             <div class="container bg-light mt-2 mb-5">
                 <div class="row">
                     <h2>Un projet de developpement ?</h2>
@@ -535,72 +535,73 @@
             </div>
         </section>
 
-        <footer>
-            <div class="container mt-2 bg-transparent bg-secondary">
-                <div class="row gx-5">
-                    <div class="col-3 py-2">
-                        <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
-                            <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Valère</span> SETODJI
-                        </a>
-                    </div>
-                    <div class="col-3 offset-1 py-2 text-center">
-                        <a href="#" type="button" class="btn btn-default" data-bs-toggle="modal" data-bs-target="#modal">mention légale</a>
-                    </div>
+    </main>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Mention légale</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut tempora earum quam adipisci laudantium nostrum, illo, non quaerat laborum minima harum tempore totam atque recusandae distinctio nobis ut! Iure?
-                                    Earum accusamus obcaecati corrupti accusantium alias, quis veritatis nulla eaque necessitatibus sint consectetur, dicta, mollitia aperiam deserunt? Atque cumque odit pariatur sunt repudiandae possimus architecto eveniet. At nostrum molestias assumenda?
-                                    Ipsa harum quaerat voluptatibus molestias cum, mollitia a unde velit eius ratione dignissimos blanditiis sunt eum autem fugiat nam quos dolorum nulla, illum natus. Blanditiis consequatur dolorum nulla! Nemo, dolor.
-                                    Excepturi magnam tempora molestiae earum vel, possimus quidem? Eos, velit aliquam, rerum repellendus, qui quam ducimus nulla ipsa veritatis eligendi obcaecati! Dicta commodi est molestias fugiat, enim dolore modi eius.
-                                    Blanditiis, voluptatibus. Iusto excepturi ducimus minima, ipsum animi, omnis ullam eum iure eaque accusamus, necessitatibus libero nihil error. Culpa alias, assumenda cumque aperiam dolorem reiciendis molestias numquam ratione beatae est!
-                                    At praesentium libero vero quis inventore cumque, ratione tempore aliquid dolorum error quasi nihil dicta in debitis odit accusamus eveniet! Doloremque, in ipsa animi nesciunt inventore ex eaque distinctio dolor!
-                                    Facere impedit laudantium natus nihil numquam repellat quibusdam, dolor itaque ex ducimus aperiam ullam, vel omnis id nesciunt culpa. Enim veritatis labore quo rerum voluptate nostrum dicta dolore ratione distinctio!
-                                    Numquam officiis vel debitis, nostrum, nulla minus reprehenderit quo temporibus aperiam voluptates impedit fugiat incidunt aliquid alias, aliquam iste? Officiis ratione, necessitatibus modi voluptatem sunt eum incidunt ad dolores obcaecati.
-                                    Delectus possimus fugiat perferendis, tempore exercitationem repellendus magni deserunt tenetur enim illum velit molestias animi voluptatibus atque quisquam corrupti ad odio ducimus provident autem minus. Sed natus excepturi consectetur iusto.
-                                    Quaerat dolores odio nesciunt sapiente nostrum totam voluptatum inventore deserunt? Vel veritatis earum quasi esse sint, eos iure similique nisi natus perspiciatis dolorum numquam accusamus delectus ex temporibus beatae doloribus.
-                                </p>
-                            </div>
-                          </div>
+    <footer>
+        <div class="container mt-2 bg-transparent bg-secondary">
+            <div class="row gx-5">
+                <div class="col-12 col-md-3 py-2">
+                    <a class="navbar-brand text-uppercase fw-bold" href="/index.html">
+                        <span class="bg-primary bg-gradient p-1 rounded-3 text-light">Valère</span> SETODJI
+                    </a>
+                </div>
+                <div class="col-12 col-md-3 offset-1 py-2 text-center">
+                    <a href="#" type="button" class="btn btn-default" data-bs-toggle="modal tooltip" data-bs-target="#modal" data-bs-placement="top" title="Copyright">mention légale</a>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modal" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Mention légale</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
-                    </div>
-
-                    <div class="col-4 offset-1 py-2">
-                        <ul class="list-inline text-md-end">
-                            <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/val%C3%A8re-setodji-79767a255/">
-                                    <i class="bi bi-linkedin"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="">
-                                    <i class="bi bi-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.facebook.com/profile.php?id=100069757077114">
-                                    <i class="bi bi-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="https://www.mail.google.com">
-                                    <i class="bi bi-envelope"></i>
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="modal-body">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione aut tempora earum quam adipisci laudantium nostrum, illo, non quaerat laborum minima harum tempore totam atque recusandae distinctio nobis ut! Iure?
+                                Earum accusamus obcaecati corrupti accusantium alias, quis veritatis nulla eaque necessitatibus sint consectetur, dicta, mollitia aperiam deserunt? Atque cumque odit pariatur sunt repudiandae possimus architecto eveniet. At nostrum molestias assumenda?
+                                Ipsa harum quaerat voluptatibus molestias cum, mollitia a unde velit eius ratione dignissimos blanditiis sunt eum autem fugiat nam quos dolorum nulla, illum natus. Blanditiis consequatur dolorum nulla! Nemo, dolor.
+                                Excepturi magnam tempora molestiae earum vel, possimus quidem? Eos, velit aliquam, rerum repellendus, qui quam ducimus nulla ipsa veritatis eligendi obcaecati! Dicta commodi est molestias fugiat, enim dolore modi eius.
+                                Blanditiis, voluptatibus. Iusto excepturi ducimus minima, ipsum animi, omnis ullam eum iure eaque accusamus, necessitatibus libero nihil error. Culpa alias, assumenda cumque aperiam dolorem reiciendis molestias numquam ratione beatae est!
+                                At praesentium libero vero quis inventore cumque, ratione tempore aliquid dolorum error quasi nihil dicta in debitis odit accusamus eveniet! Doloremque, in ipsa animi nesciunt inventore ex eaque distinctio dolor!
+                                Facere impedit laudantium natus nihil numquam repellat quibusdam, dolor itaque ex ducimus aperiam ullam, vel omnis id nesciunt culpa. Enim veritatis labore quo rerum voluptate nostrum dicta dolore ratione distinctio!
+                                Numquam officiis vel debitis, nostrum, nulla minus reprehenderit quo temporibus aperiam voluptates impedit fugiat incidunt aliquid alias, aliquam iste? Officiis ratione, necessitatibus modi voluptatem sunt eum incidunt ad dolores obcaecati.
+                                Delectus possimus fugiat perferendis, tempore exercitationem repellendus magni deserunt tenetur enim illum velit molestias animi voluptatibus atque quisquam corrupti ad odio ducimus provident autem minus. Sed natus excepturi consectetur iusto.
+                                Quaerat dolores odio nesciunt sapiente nostrum totam voluptatum inventore deserunt? Vel veritatis earum quasi esse sint, eos iure similique nisi natus perspiciatis dolorum numquam accusamus delectus ex temporibus beatae doloribus.
+                            </p>
+                        </div>
+                      </div>
                     </div>
                 </div>
+
+                <div class="col-12 col-md-4 offset-md-1 py-2">
+                    <ul class="list-inline text-md-end">
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/val%C3%A8re-setodji-79767a255/" data-bs-toggle="tooltip" data-bs-placement="top" title="linkedin">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="twiter">
+                                <i class="bi bi-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/profile.php?id=100069757077114" data-bs-toggle="tooltip" data-bs-placement="top" title="facebook">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.mail.google.com" data-bs-toggle="tooltip" data-bs-placement="top" title="email">
+                                <i class="bi bi-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
 
     <!-- Bootstrap JS bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
