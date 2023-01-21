@@ -1,0 +1,15 @@
+$utilities: ()!default;
+
+$utilities: map-merge(
+ $utilities,
+ (
+  "opacity": (
+   property: opacity,
+   class: o,
+   responsive: true,
+   values: (
+    
+   )
+  )
+ )
+);
